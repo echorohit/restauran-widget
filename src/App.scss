@@ -1,0 +1,21 @@
+@import "./variables.scss";
+
+.App{
+  max-width: 28.125rem;
+  background: $boxColor;
+  box-shadow: 0rem 0.125rem 0.75rem 0.0625rem $borderColor;
+  border-radius: 1.5625rem;
+  margin: 10% auto;
+  
+}
+.disable-text {
+  font-size: 1.125rem;
+  color: $closeColor;
+  font-weight: 400;
+}
+.today-text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: $todayColor;
+  text-transform: uppercase;
+}
